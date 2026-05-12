@@ -90,8 +90,18 @@ Si `requires_retraining = true`, el orquestador puede reentrenar automáticament
 ## Nota
 
 El archivo `posprocessing.py` se mantiene como alias para compatibilidad con el notebook original, pero la versión ordenada para la entrega es `postprocessing.py`.
+
 ## Repositorio GitHub
 
 El proyecto se encuentra disponible en el siguiente enlace:
 
 https://github.com/allisongallegosmelo-ui/pipeline-ml-e2e-cu-venta
+
+## API de inferencia
+
+La API de inferencia fue implementada con FastAPI.
+
+Para ejecutarla localmente:
+
+```bash
+python -m uvicorn api:app --reload

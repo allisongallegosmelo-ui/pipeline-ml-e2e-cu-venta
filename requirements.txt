@@ -6,3 +6,7 @@ optuna>=3.0
 mlflow>=2.0
 prefect>=2.0
 streamlit>=1.30
+fastapi
+uvicorn
+xgboost
+scikit-learn
